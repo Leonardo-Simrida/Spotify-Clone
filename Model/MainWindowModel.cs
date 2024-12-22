@@ -1,13 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.ObjectModel;
+using System.Windows.Documents;
 
 namespace Shit_Spotify.Models
 {
     public class MainWindowModel
     {
-        // hello
+        private ObservableCollection<ListItem> Songs { get; set; }
     }
 }
